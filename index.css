@@ -1,0 +1,86 @@
+@font-face{
+
+    font-family: "Merri";
+    
+    src: url('./fonts/');
+    
+    src: url('./fonts/Merriweather/Merriweather-Black.ttf') format('tft'),
+    
+    url('./fonts/Merriweather/Merriweather-BlackItalic.ttf') format('tft'),
+    
+    url('./fonts/Merriweather-Italic.ttf') format('tft'),
+    
+    url('./fonts/Merriweather-LightItalic.ttf') format('tft');
+    
+    font-weight: bold;
+    
+    font-style: normal;
+    
+    }
+body{
+    background: url(./png/DS3_fon.jpg) no-repeat center center fixed ;
+    background-size: cover;
+}
+.start {
+     font-family: 'Mansalva', cursive;
+      color: gold;
+  }
+.fix_head ,.tablo_text {
+    color: gold;
+    text-align: center;
+    font-family: 'Turret Road', cursive;
+}
+ main {
+    text-align: center;
+}
+ main .start_name {
+    font-family: "Merri", 'Arial Narrow Bold', sans-serif;
+    font-style: unset ;
+    font-size: 25pt ;
+      color: rgb(255, 102, 0);
+
+}
+main .start_qtext {
+    width: 200px;
+    height: 190px;
+    background-color: rgba(24, 0, 0, 0.548) ;
+    border: 7px solid rgba(252, 248, 0, 0.534);
+    padding: 10px 7px 0px 7px;
+    margin: 0px 150px ; /*50 с верху а авто это центрелиховать по оси y*/
+    text-align: center ;
+    font-family: 'Turret Road', cursive;
+}
+main .start_qtext_span {
+    font-family: 'Turret Road', initial;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 15pt ;
+}
+div .start_text_mid {
+    font-size: 25pt ;
+    font-family: "Merri", 'Arial Narrow Bold', sans-serif;
+}
+div .start_text_mid_hist {
+    font-size: 15pt ;
+    font-style: italic;
+}
+div .tablo_wapon_great {
+    width: 500px;
+    height: 290px;
+    background-color: rgba(24, 0, 0, 0.548) ;
+    border: 7px solid rgba(252, 248, 0, 0.534);
+    padding: 0px 0px 0px 0px;
+    margin: 0px 50px ; /*50 с верху а авто это центрелиховать по оси y*/
+    text-align: center ;
+    font-family: 'Turret Road', cursive;
+}
+div .tablo_wapon_trash {
+    width: 500px;
+    height: 290px;
+    background-color: rgba(24, 0, 0, 0.548) ;
+    border: 7px solid rgba(252, 248, 0, 0.534);
+    padding: 0px 0px 0px 0px;
+    margin: 1px 1px ; /*50 с верху а авто это центрелиховать по оси y*/
+    text-align: center ;
+    font-family: 'Turret Road', cursive;
+}
